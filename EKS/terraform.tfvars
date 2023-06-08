@@ -15,9 +15,9 @@ env_name  = "staging"
 eks_version = "1.23"
 
 
-eks_worker_node_group1_instance_type = ["m5.2xlarge"]
+eks_worker_node_group1_instance_type = ["c5a.large"]
 
-eks_worker_node_group2_instance_type = ["m6g.2xlarge"]
+eks_worker_node_group2_instance_type = ["c5a.large"]
 
 
 eks_worker_node_group1_desired  = 1
@@ -32,7 +32,7 @@ eks_worker_node_group1_max = 1
 cluster_name= "stg"
 
 
-eks_worker_node_disk_size = 30
+eks_worker_node_disk_size = 10
 
 
 mw_pvt_sub_aza_cidr = "10.1.7.0/24"

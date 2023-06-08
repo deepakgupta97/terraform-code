@@ -17,7 +17,7 @@ public_subnets_cidr  = ["10.1.1.0/24","10.1.2.0/24"]
 private_subnets_cidr = ["10.1.3.0/24","10.1.4.0/24"]
 
 
-region  = "us-east-1"
+region  = "ap-south-1"
 
 
 
