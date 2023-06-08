@@ -17,7 +17,7 @@ eks_version = "1.23"
 
 eks_worker_node_group1_instance_type = ["c5a.large"]
 
-eks_worker_node_group2_instance_type = ["c5a.large"]
+eks_worker_node_group2_instance_type = ["m6g.large"]
 
 
 eks_worker_node_group1_desired  = 1
