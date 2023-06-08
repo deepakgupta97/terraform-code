@@ -19,5 +19,4 @@ private_subnets_cidr = ["10.1.3.0/24","10.1.4.0/24"]
 
 region  = "ap-south-1"
 
-
-enable_vpc_logs = false
+vpc_logs_bucket_ARN = "arn:aws:s3:::tricog"
